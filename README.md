@@ -2,7 +2,7 @@ A timer to keep track of camera flips for the FNaF 3 Aggressive Nightmare strate
 
 ![(Screenshot of the app)](readme_screenshot.png)
 
-Cursor in the app icon created by Posy(https://michieldb.nl/other/cursors/)
+Cursor in the app icon created by [Posy](https://michieldb.nl/other/cursors/)
 
 
 
