@@ -1,6 +1,6 @@
 [package]
 name = "fgptimer"
-version = "1.0.0"
+version = "1.0.1"
 description = "A timer to keep track of camera flips for the FNaF 3 Aggressive Nightmare strategy, fgp."
 authors = ["yoshomay"]
 edition = "2021"

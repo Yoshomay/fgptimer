@@ -11,15 +11,21 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
 }
 
 input {
     background-color: #444444;
     font-weight: bold;
     color: white;
-    padding: 10px;
     border: 1px solid #393939;
     border-radius: 10px;
+    margin-bottom: 10px; 
+    max-width: 150px;
+    height: 25px;
+    padding: 3px;
+    @media screen and (max-width: 328px) {width: 90%;}
 }
 
 button {
@@ -40,29 +46,32 @@ a {
     text-decoration: underline;
 }
 
-#sourceCode {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    opacity: 0.5;
-    padding: 10px;
-
-    &:hover {
-        opacity: 1;
-    }
-}
-
 #topContainer {
     width: 90vw;
-    min-height: 100px;
+    min-height: fit-content;
     height: 40vh;
 }
 
-#secondsContainer {
+#secondsContainer, #sourceCode {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 150px;
     width: 40vw;
-    min-height: 40px;
-    height: 15vh;
+    height: 70px;
     bottom: 15px;
-    left: 30vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#sourceCode {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    bottom: 100px;
+    padding: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
